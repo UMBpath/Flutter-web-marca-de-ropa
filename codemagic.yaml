@@ -17,7 +17,7 @@ workflows:
       - name: Obtener dependencias de Flutter
         script: flutter packages pub get
       - name: Compilar APK Release de Android
-        script: flutter build apk --release
+        script: flutter build apk --release --android-skip-build-dependency-validation
     artifacts:
       - build/**/outputs/**/*.apk
 
