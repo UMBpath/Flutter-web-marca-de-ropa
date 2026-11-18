@@ -20,11 +20,6 @@ workflows:
         script: flutter build apk --release
     artifacts:
       - build/**/outputs/**/*.apk
-    publishing:
-      email:
-        notify:
-          on_success: true
-          on_failure: true
 
   web-workflow:
     name: Herencia Web Build
@@ -46,8 +41,3 @@ workflows:
         script: flutter build web --release
     artifacts:
       - build/web/**
-    publishing:
-      email:
-        notify:
-          on_success: true
-          on_failure: true
