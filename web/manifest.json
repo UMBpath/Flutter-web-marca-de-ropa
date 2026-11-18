@@ -1,0 +1,9 @@
+{
+    "name": "Herencia Streetwear",
+    "short_name": "Herencia",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#0F0F11",
+    "theme_color": "#FF4800",
+    "description": "Herencia - Gestión de Catálogo de Ropa Streetwear"
+}
